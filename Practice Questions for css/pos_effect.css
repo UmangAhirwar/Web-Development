@@ -1,0 +1,53 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: inline-block;
+    border: solid black;
+    margin-right: 20px;
+}
+#Static{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    border: solid black;
+    margin-right: 20px;
+    top: 100px;
+    left: 100px;
+    position: static;
+}
+#Relative{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    border: solid black;
+    margin-right: 20px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    
+}
+#Absolute{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+    border: solid black;
+    margin-right: 20px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#Fixed{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    
+    border: solid black;
+    margin-right: 20px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
