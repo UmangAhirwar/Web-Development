@@ -1,0 +1,11 @@
+h2{
+    text-align: center;
+    color: orange;
+    font-family: arial;
+}
+p{
+ line-height: 1;
+ letter-spacing: 2px;
+ font: message-box;   
+ font-family: arial;
+}

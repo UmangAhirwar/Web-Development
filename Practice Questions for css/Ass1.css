@@ -1,0 +1,20 @@
+h1{
+    
+    text-align: center;
+}
+h3{
+    color: black;
+    text-align: center;
+}
+p{
+    line-height: 30px;
+    text-align: center;
+    color: red;
+}
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    background-color: white;
+    color: black;
+}
