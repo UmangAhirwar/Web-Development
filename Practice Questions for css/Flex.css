@@ -1,0 +1,27 @@
+#container{
+    height: 200px;
+    width: 80%;
+    border: solid black;
+    margin: 10px auto;
+    transition: 1s;
+}
+#container div{
+    height: 100px;
+    width: 200px;
+    transition: 1s;
+}
+h1 + p{
+    text-align: center;
+}
+#container:hover{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    flex: 1 1 100px;
+    justify-content: flex-start;
+    align-content: start;
+} 
+#container div:hover{
+    box-shadow: 10px 10px 10px;
+   
+}
