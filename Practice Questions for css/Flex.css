@@ -1,4 +1,4 @@
-#container{
+ #container{
     height: 200px;
     width: 80%;
     border: solid black;
@@ -7,21 +7,19 @@
 }
 #container div{
     height: 100px;
-    width: 200px;
+    width: 25%;
     transition: 1s;
 }
 h1 + p{
     text-align: center;
 }
-#container:hover{
+ #container:hover{
     display: flex;
     flex-direction: column-reverse;
-    flex-wrap: wrap;
-    flex: 1 1 100px;
+    flex-wrap: wrap; 
     justify-content: flex-start;
     align-content: start;
-} 
-#container div:hover{
-    box-shadow: 10px 10px 10px;
+}  
+
    
-}
+ 
