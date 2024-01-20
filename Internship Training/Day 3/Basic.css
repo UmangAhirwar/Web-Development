@@ -1,0 +1,33 @@
+.first h1{
+    color: orange;
+}
+.first button{
+    color: white;
+    background-color: blue;
+}
+.first p{
+    background-color: black;
+    color: white;
+}
+.first h1{
+    font-family: league spartan;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: teal double underline;
+    text-transform: uppercase;
+}
+.second h1{
+    font-family: 'Courier New', Courier, monospace;
+    color:#1b74e4;
+}
+.Login, .Signup {
+    background-color: aqua;
+}
+.search {
+    color: white;
+    background-color: black;
+}
