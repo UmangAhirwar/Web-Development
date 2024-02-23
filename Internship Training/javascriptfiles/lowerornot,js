@@ -1,0 +1,7 @@
+let str = "umang";
+if(str == str.toLowerCase()){
+    console.log("Lowercase");
+}
+else{
+    console.log("Not lowercase");
+}

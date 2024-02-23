@@ -206,6 +206,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-width: 1201px;
 }
 .album{
     width: 25%;
@@ -265,14 +266,15 @@ h2{
     height: 17%;
     width: 17%;
     border-radius: 0.25rem;
-    margin-top: 0.65rem;
+    margin-top: 0.3rem;
 }
 .control-icons{
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    justify-content: right;
     padding-left: 4rem;
     padding-right: 2rem;
+    gap: 18px;
 }
 .volume::-webkit-slider-runnable-track{
     appearance: none;
@@ -288,9 +290,94 @@ h2{
     background: black;
     border-radius: 50%;
     margin-top: -6px;
+    color: #1bd760;
 }
 .volume{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 7px;
+}
+.cards-containerPA .card{
+    background-color: #232323;
+    width: 150px;
+    border-radius: 0.35rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+.cards-containerPA .card img{
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
+}
+.cards-containerPA .card:hover{
+    transition: ease-in-out 0.2s;
+    background-color: #303030;    
+}
+.cards-container .card:hover{
+    transition: ease-in-out 0.2s ;
+    background-color: #303030;    
+}
+.links{
+   
+    display: flex;
+    padding-left: 1.48rem;
+    box-sizing: border-box;
+    margin-top: 4rem;  
+}
+.link1{
+    display: inline-block;
+   
+}
+.link2{
+    margin-left: 7rem;
+    display: inline-block;
+}
+.link3{
+    margin-left: 6rem;
+    display: inline-block;
+}
+.links h5{
+    color: rgb(127, 127, 125);
+}
+.links h5:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+} 
+.iconlink{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    font-size: 30px;
+    gap: 20px;
+    margin-top: 35px;
+    margin-right:30px ;
+}
+@media screen and (max-width: 1165px) {
+    .iconlink{
+        display: none;
+    }
+} 
+.fa-square-facebook{
+    opacity: 0.5;
+}
+.fa-square-facebook:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.fa-square-twitter{
+    opacity: 0.5;
+}
+.fa-square-twitter:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.fa-square-instagram{
+    opacity: 0.5;
+}
+.fa-square-instagram:hover{
+    opacity: 1;
+    cursor: pointer;
 }
