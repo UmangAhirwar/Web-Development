@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Shipping website Design</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/c6edd9c643.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+       
+        <nav>
+            <a href="index.html"><img src="images/images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class=" fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">PROFILE</a></li>
+                    <li><a href="">NEWS</a></li>
+                    <li><a href="">ENQUIRY</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>A.V.Joshi's CFS</h1>
+            <p>Hy! This is Umang Ahirwar and this is my demo website design for you to explain <br>how much capable I am in terms of designing.</p>
+            <a href="" class="hero-btn">Container Tracking</a>
+            <a href="" class="hero-btn">Empty Container Tracking</a>
+        </div>
+
+    </section>
+
+    <!-------Course------->
+
+    <section class="course">
+        
+        <h1>About</h1>
+        <p>Welcome to the official website of Arvind V Joshi & Company’s Container Freight Station.</p>
+        
+        <div class="row">
+            
+            <div class="course-col">
+                <h3>Mission</h3>
+                <p>We aim to deliver CFS services that are user-friendly, precise, and promptly executed, all at a reasonable cost, conveniently available in one location. Our commitment is to ensure accuracy and efficiency, making the process seamless for our clients.</p>
+            </div>
+            <div class="course-col">
+                <h3>Vision</h3>
+                <p>We specialize in delivering top-tier services for exporting and importing containerized cargo. Our focus is on providing unmatched quality and reliability in the sector. Through dedication and expertise, we ensure seamless operations and exceed expectations, setting the standard for excellence in international logistics.</p>
+            </div>
+            <div class="course-col">
+                <h3>Tariff</h3>
+                <p>Explore our tariff plans for various services including Export, Import (H.M.S), Import (General), and Import (Non-Ferrous & others). Tailored to meet your specific needs, our tariffs offer competitive rates and comprehensive solutions for all your import and export requirements.</p>
+            </div>
+    
+        </div>
+    </section>
+
+    <!-------Campus-------->
+
+    <section class="campus">
+        <h1>24/7 support</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/images/london.png" alt="">
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/images/newyork.png" alt="">
+                    <div class="layer">
+                        <h3>NEW YORK</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/images/washington.png" alt="">
+                    <div class="layer">
+                        <h3>WASHINGTON</h3>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px";
+        }
+    </script>
+</body>
+</html> 
