@@ -18,7 +18,7 @@ console.log(addUpTo(6));
 
 
 
-// same program with optimized method
+// same program with optimized method   
 function addUpToByFormula(x){
     // Only have 3 operations -> O(1)
     return x * (x + 1) / 2;

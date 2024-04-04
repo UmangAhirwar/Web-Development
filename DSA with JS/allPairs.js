@@ -2,6 +2,5 @@
 function example(arr){
     for(i= 0; i <= length(arr); i++){
         console.log(arr[i]);
-        // 
     }
 }
