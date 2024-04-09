@@ -1,3 +1,4 @@
+//Write a function which return the string having max characters.
 country = ['Australia', 'Germany', 'United States of America']
 function returnLongName(country){
     let currIndex = 0;
