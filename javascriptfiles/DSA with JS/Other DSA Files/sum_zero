@@ -1,0 +1,11 @@
+function sumZero(arr1){
+    for(let i = 0; i < arr1.length - 1; i++){
+        for(let j = i + 1; j < arr1.length; j++){
+            if(arr1[i] + arr1[j] === 0){
+                return [arr1[i], arr1[j]]
+            }
+        }
+    }
+    return false;
+}
+console.log(sumZero([2,-2,0,2]));
