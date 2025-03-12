@@ -1,0 +1,21 @@
+#outerDiv{
+    border: 10px solid red;
+    padding: 10px;
+    width: 0 auto;
+    text-align: center;
+    margin: 10px
+}
+#midDiv{
+    border: 10px solid green;
+    padding: 10px;
+    width: 0 auto;
+    text-align: center;
+    margin: 10px
+}
+#innerDiv{
+    border: 10px solid blue;
+    padding: 10px;
+    width: 0 auto;
+    text-align: center;
+    margin: 10px
+}
