@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #dfe9f3, #ffffff);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 60px;
+            color: #2c3e50;
+        }
+
+        form {
+            background: #ffffff;
+            padding: 40px 50px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            min-width: 350px;
+        }
+
+        input[type="text"], input[type="password"] {
+            padding: 12px 16px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        input[type="text"]:focus,
+        input[type="password"]:focus {
+            outline: none;
+            border-color: #1abc9c;
+            box-shadow: 0 0 8px rgba(26, 188, 156, 0.2);
+        }
+
+        button {
+            background: #2c3e50;
+            color: #ffffff;
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        button:hover {
+            background: #1abc9c;
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(26, 188, 156, 0.3);
+        }
+
+        button:active {
+            transform: scale(0.98);
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="/user">
+        <input type="text" name="id" placeholder="enter id"><br>
+        <input type="text" name="username" placeholder="enter username"><br>
+        <input type="text" name="email" placeholder="enter email"><br>
+        <input type="password" name="password" placeholder="enter password"><br>
+        <button>Submit</button>
+    </form> 
+</body>
+</html>

@@ -1,0 +1,2 @@
+DELETE FROM user
+LIMIT 105;
