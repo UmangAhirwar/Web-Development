@@ -1,11 +1,14 @@
-let n = 3;
-//outer loop 
-for(let i = 1; i <= n; i++){
-    //making an empty string and columns
+// setting up the number of rows
+let rows = 5;
+
+//logic for rows in the outer loop
+for(let i=0; i<rows; i++){
     let star = '';
-    //adding stars to the empty string by applying the inner loop
-    for(let j=1; j<=n; j++){
-        star += '*'
+
+    //logic for column in the inner loop
+    //j starts from 0 to 5 to print the stars in column
+    for(let j=0; j<rows; j++){
+        star += '*';
     }
     console.log(star);
 }
