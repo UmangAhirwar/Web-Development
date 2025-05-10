@@ -1,0 +1,9 @@
+Install require packages: 
+1.npm i express
+2.npm i ejs
+3.npm i mongoose
+4.npm i ejs-mate
+5.npm i flash
+6.npm i passport
+7.npm i passport-local
+8.npm i passport-local-mongoose
