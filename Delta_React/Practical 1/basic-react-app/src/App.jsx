@@ -1,9 +1,11 @@
 import "./App.css";
+import MsgBoxTab from "./MsgBoxTab";
 import ProductTab from "./ProductTab";
 
 function App() {
   return (
     <>
+      <MsgBoxTab></MsgBoxTab>
       <ProductTab></ProductTab>
     </>
   );
