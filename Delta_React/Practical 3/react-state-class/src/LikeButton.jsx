@@ -1,9 +1,14 @@
+//Passing boolean values in useState
+
 import {useState} from "react";
 export default function likeButton(){
+    
     let [like, setLike] = useState(false)
+
     function liked(){
         setLike(!like);
     }
+
     return(
         <>
         <p onClick={liked}> 
@@ -14,4 +19,5 @@ export default function likeButton(){
         </p>
         </>
     )
+
 }

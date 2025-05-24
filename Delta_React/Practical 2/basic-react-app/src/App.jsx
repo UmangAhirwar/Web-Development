@@ -1,3 +1,5 @@
+//Passing arrays, props in the components
+
 import { useState } from 'react'
 import './App.css'
 import ProductTab from './ProductTab'

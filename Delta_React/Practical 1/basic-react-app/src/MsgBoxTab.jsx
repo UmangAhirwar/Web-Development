@@ -7,4 +7,4 @@ export default function MsgBoxTab(){
             <MsgBox username="Vinay" textcolor="green"></MsgBox>
         </>
     )
-}
+}   
